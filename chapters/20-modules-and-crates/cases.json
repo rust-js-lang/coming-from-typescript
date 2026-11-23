@@ -1,0 +1,5 @@
+[
+  {"items":[["Fancy Mug",1250],["USB Cable",799],["XMLHttpRequest Book",3000]],"receipt":["fancy-mug $12.50","usb-cable $7.99","xml-http-request-book $30.00","total $50.49 (5049 cents)"],"total":"$50.49"},
+  {"items":[["tea_towel",5]],"receipt":["tea-towel $0.05","total $0.05 (5 cents)"],"total":"$0.05"},
+  {"items":[],"receipt":["total $0.00 (0 cents)"],"total":"$0.00"}
+]

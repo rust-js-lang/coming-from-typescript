@@ -1,6 +1,6 @@
 # Patches to rust-js
 
-The `rust-js` submodule is pinned to a commit of
+The `vendor/rust-js` submodule is pinned to a commit of
 [rust-js-lang/rust-js](https://github.com/rust-js-lang/rust-js), unchanged.
 When a chapter needs something rust-js doesn't do yet, we write the change
 as a patch in [patches/](patches/), open an issue upstream, and list both here.

@@ -9,7 +9,7 @@ const dir = join(root, 'patches')
 const patches = existsSync(dir) ? readdirSync(dir).filter((name) => name.endsWith('.patch')).sort() : []
 
 function git(...args: string[]): boolean {
-  return Bun.spawnSync(['git', '-C', join(root, 'rust-js'), ...args], { stderr: 'pipe' }).exitCode === 0
+  return Bun.spawnSync(['git', '-C', join(root, 'vendor/rust-js'), ...args], { stderr: 'pipe' }).exitCode === 0
 }
 
 for (const name of patches) {

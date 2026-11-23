@@ -1,0 +1,18 @@
+[package]
+name = "chapter-20-modules-and-crates"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+# A crate from crates.io, as `npm install heck` would be: rust-js compiles
+# it into JavaScript beside this crate's own.
+[dependencies]
+heck = "=0.5.0"
+
+[dev-dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+
+# rust-js compiles with `--cfg=rust_js`.
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(rust_js)"] }

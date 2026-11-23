@@ -73,6 +73,9 @@ fewer things, each explained, with the why.
 19. [`Rc` and `RefCell`](chapters/19-rc-and-refcell/README.md): owners
     counted, borrows checked as the program runs, and a read while
     writing that panics where TypeScript lets it through.
+20. [Modules and crates](chapters/20-modules-and-crates/README.md):
+    `mod` declares a module, `pub(crate)` is a privacy TypeScript lacks,
+    `pub use` is the front door, and a crates.io dependency compiled too.
 
 ## Run it
 
@@ -89,7 +92,8 @@ bun run test     # tsc, then each chapter's tests, then native Rust's
 
 ```
 coming-from-typescript/
-├── rust-js/                     the compiler, a submodule pinned to a commit
+├── vendor/rust-js/              the compiler, a submodule pinned to a commit
+├── rust-js/crates/              crates.io crates rust-js compiled (chapter 20)
 ├── chapters/01-the-same-function-twice/
 │   ├── ts/stats.ts              the TypeScript
 │   ├── rust/src/lib.rs          the Rust
