@@ -61,6 +61,9 @@ fewer things, each explained, with the why.
 15. [Classes without inheritance](chapters/15-classes-without-inheritance/README.md):
     private fields that keep a value valid, composition and an enum in
     place of `extends`, and an opaque type at the boundary.
+16. [Moves](chapters/16-moves/README.md): one owner, a use after a move
+    that won't compile, `clone` and `Copy`, `Drop` in place of `finally`,
+    and the rule a TypeScript caller keeps itself.
 
 ## Run it
 
