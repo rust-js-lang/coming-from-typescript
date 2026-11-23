@@ -46,6 +46,9 @@ fewer things, each explained, with the why.
 10. [Arrays and iterators](chapters/10-arrays-and-iterators/README.md):
     `Vec` owns and a slice borrows, iterator chains are lazy enough to
     start from forever, and `get` answers where `[i]` panics.
+11. [Maps and sets](chapters/11-maps-and-sets/README.md): `entry` for
+    counting, keys equal by what's in them where a JS `Set` compares
+    arrays by identity, and a `HashMap` with no order to count on.
 
 ## Run it
 

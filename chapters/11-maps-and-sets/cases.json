@@ -1,0 +1,20 @@
+{
+  "texts": [
+    {"most_common":["the",2],"sorted_counts":[["and",1],["cat",1],["hat",1],["the",2]],"text":"the cat and the hat"},
+    {"most_common":["be",2],"sorted_counts":[["be",2],["not",1],["or",1],["to",2]],"text":"To be or not to be"},
+    {"most_common":["a",2],"sorted_counts":[["a",2],["b",2]],"text":"b a b a"},
+    {"most_common":null,"sorted_counts":[],"text":""},
+    {"most_common":["one",1],"sorted_counts":[["one",1]],"text":"one"}
+  ],
+  "walks": [
+    {"places_visited":4,"steps":[[1,0],[0,1],[-1,0],[0,-1]]},
+    {"places_visited":4,"steps":[[1,0],[1,0],[1,0]]},
+    {"places_visited":2,"steps":[[1,1],[-1,-1],[1,1]]},
+    {"places_visited":1,"steps":[]}
+  ],
+  "tags": [
+    {"a":["rust","js","web"],"b":["web","rust","css"],"shared":["rust","web"]},
+    {"a":["a","a","b"],"b":["a"],"shared":["a"]},
+    {"a":["x"],"b":["y"],"shared":[]}
+  ]
+}
