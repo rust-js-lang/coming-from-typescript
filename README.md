@@ -82,6 +82,9 @@ fewer things, each explained, with the why.
 22. [Testing](chapters/22-testing/README.md): `#[test]` built in, unit
     tests beside the code that reach its privates, `should_panic`, and the
     same Rust tests run as JavaScript by `rust-js test`.
+23. [Calling JS, called from TS](chapters/23-calling-js/README.md): a
+    binding to your own TypeScript, a TypeScript callback as a closure,
+    what the boundary trusts, and the whole boundary in one table.
 
 ## Run it
 
