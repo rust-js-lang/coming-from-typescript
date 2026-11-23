@@ -1,0 +1,7 @@
+[
+  {"changes":[6,-5,3],"i":1,"item":9,"n":2,"running_totals":[3,12,16,23],"squares_past":[4,9],"top":[9,7],"xs":[3,9,4,7]},
+  {"changes":[-40,70,-60,10],"i":4,"item":30,"n":3,"running_totals":[50,60,140,160,190],"squares_past":[64,81,100],"top":[80,50,30],"xs":[50,10,80,20,30]},
+  {"changes":[],"i":1,"item":null,"n":4,"running_totals":[1],"squares_past":[4,9,16,25],"top":[1],"xs":[1]},
+  {"changes":[],"i":0,"item":null,"n":1,"running_totals":[],"squares_past":[1],"top":[],"xs":[]},
+  {"changes":[-36,17],"i":3,"item":null,"n":2,"running_totals":[100,164,245],"squares_past":[121,144],"top":[100,81],"xs":[100,64,81]}
+]

@@ -43,6 +43,9 @@ fewer things, each explained, with the why.
 9. [`throw` is `Result`](chapters/09-throw-is-result/README.md): failing
    is part of the return type, an error enum names every way, `?` passes
    it up, and `panic!` is for bugs.
+10. [Arrays and iterators](chapters/10-arrays-and-iterators/README.md):
+    `Vec` owns and a slice borrows, iterator chains are lazy enough to
+    start from forever, and `get` answers where `[i]` panics.
 
 ## Run it
 
