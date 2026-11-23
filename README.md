@@ -64,6 +64,9 @@ fewer things, each explained, with the why.
 16. [Moves](chapters/16-moves/README.md): one owner, a use after a move
     that won't compile, `clone` and `Copy`, `Drop` in place of `finally`,
     and the rule a TypeScript caller keeps itself.
+17. [Borrowing](chapters/17-borrowing/README.md): `&` to read and `&mut`
+    to change, many readers or one writer, the `splice`-in-a-loop bug
+    that won't compile, and a `&mut u32` as a `{ value }` box.
 
 ## Run it
 
