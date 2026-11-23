@@ -49,6 +49,9 @@ fewer things, each explained, with the why.
 11. [Maps and sets](chapters/11-maps-and-sets/README.md): `entry` for
     counting, keys equal by what's in them where a JS `Set` compares
     arrays by identity, and a `HashMap` with no order to count on.
+12. [Generics](chapters/12-generics/README.md): a bound says what a `T`
+    can do, where TypeScript lets `>` compare objects; generic structs,
+    the turbofish, and rust-js passing a bound as a value.
 
 ## Run it
 

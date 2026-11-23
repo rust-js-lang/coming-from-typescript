@@ -1,0 +1,21 @@
+{
+  "scores": [
+    {"highest":9,"scores":[3,9,4]},
+    {"highest":-2,"scores":[-5,-2,-9]},
+    {"highest":7,"scores":[7]},
+    {"highest":null,"scores":[]}
+  ],
+  "words": [
+    {"by_length":[[3,["tea","pie","jam"]],[4,["cake"]]],"last_letters":["t","k","p","m"],"words":["tea","cake","pie","jam"]},
+    {"by_length":[[1,["a"]],[5,["naïve","zebra"]]],"last_letters":["ï","z","a"],"words":["naïve","zebra","a"]},
+    {"by_length":[],"last_letters":[],"words":[]}
+  ],
+  "brackets": [
+    {"balanced":true,"text":"(a[b]{c})"},
+    {"balanced":false,"text":"([)]"},
+    {"balanced":false,"text":"(("},
+    {"balanced":true,"text":""},
+    {"balanced":false,"text":"}{"},
+    {"balanced":true,"text":"f(x[0])"}
+  ]
+}
