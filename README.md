@@ -34,6 +34,9 @@ fewer things, each explained, with the why.
 6. [Objects are structs](chapters/06-objects-are-structs/README.md):
    methods in an `impl` block, `&self` or `&mut self` saying which change
    it, and `==` that compares what's in two structs.
+7. [Unions are enums](chapters/07-unions-are-enums/README.md): a
+   discriminated union as an enum, a `match` that must handle every kind,
+   and the same JavaScript objects TypeScript's union describes.
 
 ## Run it
 

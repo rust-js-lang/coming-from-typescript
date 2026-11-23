@@ -1,0 +1,7 @@
+[
+  {"area":12.566370614359172,"describe":"a circle of radius 2","doubled":4.0,"kind":"circle","size":2.0},
+  {"area":0.0,"describe":"a circle of no size","doubled":0.0,"kind":"circle","size":0.0},
+  {"area":9.0,"describe":"a square of side 3","doubled":6.0,"kind":"square","size":3.0},
+  {"area":0.25,"describe":"a square of side 0.5","doubled":1.0,"kind":"square","size":0.5},
+  {"area":0.0,"describe":"a point","doubled":0.0,"kind":"point","size":0.0}
+]
