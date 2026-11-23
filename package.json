@@ -5,7 +5,7 @@
   "scripts": {
     "rust": "bun scripts/patch-rust-js.ts && bun vendor/rust-js/tooling/cli.js build",
     "types": "tsc -p .",
-    "test": "tsc -p . && bun test chapters && cargo test --workspace"
+    "test": "tsc -p . && bun test chapters && cargo test --workspace && bun vendor/rust-js/tooling/cli.js test --package chapter-22-testing"
   },
   "dependencies": {
     "@rust-js/std": "file:vendor/rust-js/std"

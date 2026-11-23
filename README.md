@@ -79,6 +79,9 @@ fewer things, each explained, with the why.
 21. [`async`](chapters/21-async/README.md): the same words, but a Rust
     future waits to be polled where a promise starts at once, and rust-js
     refuses the code where that would show.
+22. [Testing](chapters/22-testing/README.md): `#[test]` built in, unit
+    tests beside the code that reach its privates, `should_panic`, and the
+    same Rust tests run as JavaScript by `rust-js test`.
 
 ## Run it
 
@@ -88,7 +91,8 @@ cd coming-from-typescript
 bun install
 (cd rust-js && bun install)
 bun run rust     # compile each chapter's Rust to JS (builds rust-js first)
-bun run test     # tsc, then each chapter's tests, then native Rust's
+bun run test     # tsc, then each chapter's tests, then native Rust's,
+                 # then chapter 22's Rust tests as JavaScript
 ```
 
 ## The layout

@@ -1,0 +1,12 @@
+[
+  {"seconds":{"Ok":5400},"text":"1h30m"},
+  {"seconds":{"Ok":90},"text":"90s"},
+  {"seconds":{"Ok":125},"text":"2m5s"},
+  {"seconds":{"Ok":3600},"text":"1h"},
+  {"seconds":{"Ok":0},"text":"0s"},
+  {"seconds":{"Err":"empty duration"},"text":""},
+  {"seconds":{"Err":"unknown unit 'x' in \"5x\""},"text":"5x"},
+  {"seconds":{"Err":"no number before 'h' in \"h\""},"text":"h"},
+  {"seconds":{"Err":"12 has no unit in \"12\""},"text":"12"},
+  {"seconds":{"Err":"2 has no unit in \"1h2\""},"text":"1h2"}
+]

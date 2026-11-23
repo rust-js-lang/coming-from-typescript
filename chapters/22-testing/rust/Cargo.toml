@@ -1,0 +1,18 @@
+[package]
+name = "chapter-22-testing"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dev-dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+
+# rust-js compiles with `--cfg=rust_js`.
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(rust_js)"] }
+
+# `rust-js test` runs the tests as JavaScript under bun, as `cargo test`
+# runs them natively.
+[package.metadata.rust-js.test]
+runner = "bun"
