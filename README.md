@@ -22,6 +22,9 @@ fewer things, each explained, with the why.
 2. [`let` and `let mut`](chapters/02-let-and-let-mut/README.md): nothing
    changes unless it says `mut`, and a function that changes what you give
    it says `&mut`, as you must when you call it.
+3. [Numbers that know their kind](chapters/03-numbers-know-their-kind/README.md):
+   whole numbers that divide whole, overflow you must decide on, parsing
+   that means all of it, and `u64` as a `bigint` that keeps every digit.
 
 ## Run it
 
