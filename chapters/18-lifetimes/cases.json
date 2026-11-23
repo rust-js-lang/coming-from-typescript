@@ -1,0 +1,25 @@
+{
+  "words": [
+    ["hello world","hello"],
+    ["  padded  start","padded"],
+    ["",""],
+    ["one","one"]
+  ],
+  "longest": [
+    ["apple","fig","apple"],
+    ["fig","apple","apple"],
+    ["same","size","same"],
+    ["naïve","naive!","naive!"]
+  ],
+  "mentions": [
+    ["Rust is fast. JS is everywhere. Rust and JS meet here.","rust",["Rust is fast.","Rust and JS meet here."]],
+    ["No match here.","zebra",[]],
+    ["A last one without a stop","stop",["A last one without a stop"]]
+  ],
+  "pairs": [
+    ["name = board\nport=8080\n# a comment\nmode = dev",[["name","board"],["port","8080"],["mode","dev"]]],
+    ["",[]],
+    ["no pairs\nat all",[]],
+    ["trailing=newline\n",[["trailing","newline"]]]
+  ]
+}

@@ -67,6 +67,9 @@ fewer things, each explained, with the why.
 17. [Borrowing](chapters/17-borrowing/README.md): `&` to read and `&mut`
     to change, many readers or one writer, the `splice`-in-a-loop bug
     that won't compile, and a `&mut u32` as a `{ value }` box.
+18. [Lifetimes](chapters/18-lifetimes/README.md): no garbage collector,
+    so a reference can't outlive its value; `'a` names "as long as" in a
+    signature or a struct, and leaves no trace in the JavaScript.
 
 ## Run it
 
