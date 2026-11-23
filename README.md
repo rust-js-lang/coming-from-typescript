@@ -70,6 +70,9 @@ fewer things, each explained, with the why.
 18. [Lifetimes](chapters/18-lifetimes/README.md): no garbage collector,
     so a reference can't outlive its value; `'a` names "as long as" in a
     signature or a struct, and leaves no trace in the JavaScript.
+19. [`Rc` and `RefCell`](chapters/19-rc-and-refcell/README.md): owners
+    counted, borrows checked as the program runs, and a read while
+    writing that panics where TypeScript lets it through.
 
 ## Run it
 

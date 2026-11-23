@@ -1,0 +1,13 @@
+{
+  "chats": [
+    [[["ada","hi"],["grace","hello"],["ada","how are you?"]],["ada: hi","grace: hello","ada: how are you?","3 said, 3 owners"]],
+    [[["solo","anyone?"]],["solo: anyone?","1 said, 2 owners"]],
+    [[],["0 said, 1 owners"]]
+  ],
+  "owners": [
+    [3,0,4],
+    [3,2,2],
+    [0,0,1],
+    [2,5,1]
+  ]
+}
