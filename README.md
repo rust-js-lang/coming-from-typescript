@@ -28,6 +28,9 @@ fewer things, each explained, with the why.
 4. [Strings are UTF-8](chapters/04-strings-are-utf-8/README.md): bytes
    that are always valid text, `chars()` for characters, and why
    TypeScript's `word[0]` can be half an emoji.
+5. [Everything is an expression](chapters/05-everything-is-an-expression/README.md):
+   `if`, `match`, blocks and loops have values, a block's last line is its
+   value, and a semicolon throws it away.
 
 ## Run it
 
