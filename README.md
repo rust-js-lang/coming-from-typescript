@@ -40,6 +40,9 @@ fewer things, each explained, with the why.
 8. [`null` is `Option`](chapters/08-null-is-option/README.md): no `null`
    at all, `Option` instead, `?` as optional chaining for a whole
    function, and why the `.d.ts` says `T | null | undefined`.
+9. [`throw` is `Result`](chapters/09-throw-is-result/README.md): failing
+   is part of the return type, an error enum names every way, `?` passes
+   it up, and `panic!` is for bugs.
 
 ## Run it
 

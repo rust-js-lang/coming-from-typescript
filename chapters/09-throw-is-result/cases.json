@@ -1,0 +1,9 @@
+[
+  {"after":[4000,2000],"amount":"10.00","from":"ada","result":{"Ok":1000},"to":"grace"},
+  {"after":[5000,1000],"amount":"1000.00","from":"ada","result":{"Err":"needs 100000 cents, has 5000"},"to":"grace"},
+  {"after":[5000,1000],"amount":"1.00","from":"ada","result":{"Err":"no account named nobody"},"to":"nobody"},
+  {"after":[5000,1000],"amount":"1.00","from":"ada","result":{"Err":"from and to are the same account"},"to":"ada"},
+  {"after":[5000,1000],"amount":"12.5","from":"ada","result":{"Err":"\"12.5\" needs two digits of cents"},"to":"grace"},
+  {"after":[5000,1000],"amount":"ten","from":"ada","result":{"Err":"\"ten\" isn't an amount"},"to":"grace"},
+  {"after":[5700,300],"amount":" 7 ","from":"grace","result":{"Ok":700},"to":"ada"}
+]
