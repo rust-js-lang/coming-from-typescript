@@ -55,6 +55,9 @@ fewer things, each explained, with the why.
 13. [Interfaces are traits](chapters/13-interfaces-are-traits/README.md):
     a type has a trait where an `impl` says so, newtypes that can't be
     swapped, `impl` and `dyn`, and each `impl` as a dictionary in JS.
+14. [Narrowing is `match`](chapters/14-narrowing-is-match/README.md):
+    patterns that test and take apart at once, slices, ranges, `@`,
+    guards, `let else`, and a `match` compiled to TypeScript's `typeof`.
 
 ## Run it
 

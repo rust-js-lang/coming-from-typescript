@@ -1,0 +1,39 @@
+{
+  "values": [
+    [3.0,"the whole number 3",false],
+    [2.5,"the number 2.5",false],
+    ["","no text",false],
+    ["hi","the text \"hi\"",false],
+    [[],"an empty list",true],
+    [["x"],"a list of just the text \"x\"",true],
+    [[1.0,2.0],"a pair of numbers",true],
+    [[1.0,"b"],"a list from the whole number 1 to the text \"b\"",true],
+    [["a",[],0.5],"a list from the text \"a\" to the number 0.5",true]
+  ],
+  "commands": [
+    ["","nothing to do"],
+    ["go north","you walk north"],
+    ["go up","you can't go up"],
+    ["take lamp","you take lamp"],
+    ["take the old lamp","you take the old lamp"],
+    ["take","you don't know how to take"],
+    ["dance wildly","you don't know how to dance"],
+    ["go","you don't know how to go"]
+  ],
+  "sizes": [
+    [0,"none"],
+    [7,"one digit, 7"],
+    [9,"one digit, 9"],
+    [10,"two digits"],
+    [99,"two digits"],
+    [100,"lots"]
+  ],
+  "ports": [
+    ["localhost:8080",8080],
+    ["example.com",null],
+    ["a:99999",null],
+    ["[::1]:443",443],
+    ["host:",null],
+    ["host:http",null]
+  ]
+}

@@ -1,7 +1,7 @@
 # coming-from-typescript: one crate per chapter, each compiled to JavaScript
 # by rust-js and compared, input by input, with the same code in TypeScript.
 [workspace]
-members = ["chapters/01-the-same-function-twice/rust", "chapters/02-let-and-let-mut/rust", "chapters/03-numbers-know-their-kind/rust", "chapters/04-strings-are-utf-8/rust", "chapters/05-everything-is-an-expression/rust", "chapters/06-objects-are-structs/rust", "chapters/07-unions-are-enums/rust", "chapters/08-null-is-option/rust", "chapters/09-throw-is-result/rust", "chapters/10-arrays-and-iterators/rust", "chapters/11-maps-and-sets/rust", "chapters/12-generics/rust", "chapters/13-interfaces-are-traits/rust"]
+members = ["chapters/01-the-same-function-twice/rust", "chapters/02-let-and-let-mut/rust", "chapters/03-numbers-know-their-kind/rust", "chapters/04-strings-are-utf-8/rust", "chapters/05-everything-is-an-expression/rust", "chapters/06-objects-are-structs/rust", "chapters/07-unions-are-enums/rust", "chapters/08-null-is-option/rust", "chapters/09-throw-is-result/rust", "chapters/10-arrays-and-iterators/rust", "chapters/11-maps-and-sets/rust", "chapters/12-generics/rust", "chapters/13-interfaces-are-traits/rust", "chapters/14-narrowing-is-match/rust"]
 # The pinned rust-js checkout, a submodule: not a member of this workspace.
 exclude = ["rust-js"]
 resolver = "3"
