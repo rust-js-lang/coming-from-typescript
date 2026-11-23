@@ -19,6 +19,9 @@ fewer things, each explained, with the why.
 1. [The same function, twice](chapters/01-the-same-function-twice/README.md):
    a TypeScript function and a Rust one, and the JavaScript rust-js writes,
    which reads like the TypeScript.
+2. [`let` and `let mut`](chapters/02-let-and-let-mut/README.md): nothing
+   changes unless it says `mut`, and a function that changes what you give
+   it says `&mut`, as you must when you call it.
 
 ## Run it
 

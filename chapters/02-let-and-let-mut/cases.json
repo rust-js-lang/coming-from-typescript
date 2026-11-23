@@ -1,0 +1,7 @@
+[
+  {"name":"  Hello World  ","prices":[199,250],"slug":"hello-world","total":449},
+  {"name":"Rust For TypeScript","prices":[],"slug":"rust-for-typescript","total":0},
+  {"name":"already-a-slug","prices":[1,2,3],"slug":"already-a-slug","total":6},
+  {"name":"","prices":[0],"slug":"","total":0},
+  {"name":"Ünïcode Títle","prices":[1000000,2500000],"slug":"ünïcode-títle","total":3500000}
+]
