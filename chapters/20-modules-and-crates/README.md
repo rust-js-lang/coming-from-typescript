@@ -137,11 +137,21 @@ A `pub(crate)` method is JavaScript like any other, `Money.cents`, since
 crate's public API, so a TypeScript caller can't use it either
 (`types.check.ts`).
 
-One gap, found writing this chapter: `lib.rs` here holds nothing but its
-`mod`s and a `pub use` of a type, which has no JavaScript, and rust-js
-writes no `lib.d.ts` for it, so the re-export is lost. A TypeScript
-caller imports `Money` from `money.js` and the rest from `shop.js`.
-That's [rust-js#2399](https://github.com/rust-js-lang/rust-js/issues/2399).
+`pub use money::Money` has no JavaScript, since a type has none. It has
+a declaration, though, so the crate's front door works from TypeScript
+too:
+
+```ts
+// rust/src/lib.d.ts (generated)
+export type { Money } from "./money.js";
+```
+
+A TypeScript caller writes `import type { Money } from './rust/src/lib.js'`,
+as a Rust caller writes `use chapter_20_modules_and_crates::Money`
+(`types.check.ts`). Money's functions, `Money.format` and the rest, come
+from `money.js`, the module that defines them. This chapter found that
+the re-export was being lost, and rust-js fixed it:
+[rust-js#2399](https://github.com/rust-js-lang/rust-js/issues/2399).
 
 ## Where it's different
 
