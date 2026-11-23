@@ -1,0 +1,17 @@
+{
+  "name": "coming-from-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "rust": "bun scripts/patch-rust-js.ts && bun rust-js/tooling/cli.js build",
+    "types": "tsc -p .",
+    "test": "tsc -p . && bun test chapters && cargo test --workspace"
+  },
+  "dependencies": {
+    "@rust-js/std": "file:rust-js/std"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.5",
+    "typescript": "7.0.2"
+  }
+}
