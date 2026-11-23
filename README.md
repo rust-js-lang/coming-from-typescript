@@ -85,6 +85,9 @@ fewer things, each explained, with the why.
 23. [Calling JS, called from TS](chapters/23-calling-js/README.md): a
     binding to your own TypeScript, a TypeScript callback as a closure,
     what the boundary trusts, and the whole boundary in one table.
+24. [Where TypeScript is easier](chapters/24-where-typescript-is-easier/README.md):
+    default arguments, `Partial<T>`, objects that point at each other,
+    and the rest of the prices, with two that rust-js gives back.
 
 ## Run it
 

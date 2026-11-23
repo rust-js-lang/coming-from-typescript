@@ -1,0 +1,17 @@
+{
+  "greetings": [
+    ["Ada",null,"Hello, Ada!"],
+    ["Grace","Good morning","Good morning, Grace!"]
+  ],
+  "patches": [
+    [null,"ada@new.example",null,["Ada","ada@new.example",36]],
+    ["Lovelace",null,37,["Lovelace","ada@example.com",37]],
+    [null,null,null,["Ada","ada@example.com",36]]
+  ],
+  "paths": [
+    ["lib.rs",["lib.rs","src","repo"]],
+    ["native.rs",["native.rs","tests","repo"]],
+    ["repo",["repo"]],
+    ["nowhere",[]]
+  ]
+}
