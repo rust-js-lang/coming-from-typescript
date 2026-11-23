@@ -31,6 +31,9 @@ fewer things, each explained, with the why.
 5. [Everything is an expression](chapters/05-everything-is-an-expression/README.md):
    `if`, `match`, blocks and loops have values, a block's last line is its
    value, and a semicolon throws it away.
+6. [Objects are structs](chapters/06-objects-are-structs/README.md):
+   methods in an `impl` block, `&self` or `&mut self` saying which change
+   it, and `==` that compares what's in two structs.
 
 ## Run it
 
