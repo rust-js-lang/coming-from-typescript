@@ -37,6 +37,9 @@ fewer things, each explained, with the why.
 7. [Unions are enums](chapters/07-unions-are-enums/README.md): a
    discriminated union as an enum, a `match` that must handle every kind,
    and the same JavaScript objects TypeScript's union describes.
+8. [`null` is `Option`](chapters/08-null-is-option/README.md): no `null`
+   at all, `Option` instead, `?` as optional chaining for a whole
+   function, and why the `.d.ts` says `T | null | undefined`.
 
 ## Run it
 

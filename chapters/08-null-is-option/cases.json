@@ -1,0 +1,7 @@
+[
+  {"call_them":"Countess","managers_name":null,"name":"Ada","nickname_length":8},
+  {"call_them":"Grace","managers_name":"Countess","name":"Grace","nickname_length":null},
+  {"call_them":"Tux","managers_name":"Grace","name":"Linus","nickname_length":3},
+  {"call_them":"Alan","managers_name":null,"name":"Alan","nickname_length":null},
+  {"call_them":null,"managers_name":null,"name":"Nobody","nickname_length":null}
+]
