@@ -58,6 +58,9 @@ fewer things, each explained, with the why.
 14. [Narrowing is `match`](chapters/14-narrowing-is-match/README.md):
     patterns that test and take apart at once, slices, ranges, `@`,
     guards, `let else`, and a `match` compiled to TypeScript's `typeof`.
+15. [Classes without inheritance](chapters/15-classes-without-inheritance/README.md):
+    private fields that keep a value valid, composition and an enum in
+    place of `extends`, and an opaque type at the boundary.
 
 ## Run it
 
