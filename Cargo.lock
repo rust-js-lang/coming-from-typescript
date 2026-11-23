@@ -164,6 +164,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "chapter-21-async"
+version = "0.0.0"
+dependencies = [
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "heck"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

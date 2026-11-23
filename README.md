@@ -76,6 +76,9 @@ fewer things, each explained, with the why.
 20. [Modules and crates](chapters/20-modules-and-crates/README.md):
     `mod` declares a module, `pub(crate)` is a privacy TypeScript lacks,
     `pub use` is the front door, and a crates.io dependency compiled too.
+21. [`async`](chapters/21-async/README.md): the same words, but a Rust
+    future waits to be polled where a promise starts at once, and rust-js
+    refuses the code where that would show.
 
 ## Run it
 

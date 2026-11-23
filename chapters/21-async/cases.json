@@ -1,0 +1,6 @@
+[
+  {"items":["tea","cake"],"receipt":"2 items, 775 cents","total":{"Ok":775}},
+  {"items":["jam","tea","tea"],"receipt":"3 items, 1300 cents","total":{"Ok":1300}},
+  {"items":["tea","caviar","jam"],"receipt":"can't total: no price for caviar","total":{"Err":"no price for caviar"}},
+  {"items":[],"receipt":"0 items, 0 cents","total":{"Ok":0}}
+]
