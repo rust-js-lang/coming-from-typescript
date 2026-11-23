@@ -1,0 +1,5 @@
+[
+  {"areas":[3.141592653589793,19.634954084936208,9.0],"circles":[1.0,2.5],"garden":["a circle of area 3.14","a circle of area 19.63","a 3 by 3 square"],"shown":["circle(r=1)","circle(r=2.5)"],"squares":[3.0]},
+  {"areas":[0.25,4.0],"circles":[],"garden":["a 0.5 by 0.5 square","a 2 by 2 square"],"shown":[],"squares":[0.5,2.0]},
+  {"areas":[0.0],"circles":[0.0],"garden":["a circle of area 0.00"],"shown":["circle(r=0)"],"squares":[]}
+]

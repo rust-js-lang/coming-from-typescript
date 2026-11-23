@@ -52,6 +52,9 @@ fewer things, each explained, with the why.
 12. [Generics](chapters/12-generics/README.md): a bound says what a `T`
     can do, where TypeScript lets `>` compare objects; generic structs,
     the turbofish, and rust-js passing a bound as a value.
+13. [Interfaces are traits](chapters/13-interfaces-are-traits/README.md):
+    a type has a trait where an `impl` says so, newtypes that can't be
+    swapped, `impl` and `dyn`, and each `impl` as a dictionary in JS.
 
 ## Run it
 
