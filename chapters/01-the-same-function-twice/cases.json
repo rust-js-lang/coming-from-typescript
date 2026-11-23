@@ -1,0 +1,8 @@
+[
+  {"describe":"4 numbers, mean 2.5, largest 4","largest":4.0,"mean":2.5,"why":"four numbers","xs":[1.0,2.0,3.0,4.0]},
+  {"describe":"no numbers","largest":null,"mean":null,"why":"no numbers at all","xs":[]},
+  {"describe":"2 numbers, mean 0.15000000000000002, largest 0.2","largest":0.2,"mean":0.15000000000000002,"why":"two that don't add up exactly","xs":[0.1,0.2]},
+  {"describe":"2 numbers, mean -5, largest -3","largest":-3.0,"mean":-5.0,"why":"all below zero","xs":[-3.0,-7.0]},
+  {"describe":"1 numbers, mean 5, largest 5","largest":5.0,"mean":5.0,"why":"just one","xs":[5.0]},
+  {"describe":"3 numbers, mean 6, largest 8","largest":8.0,"mean":6.0,"why":"a tie for largest","xs":[2.0,8.0,8.0]}
+]
