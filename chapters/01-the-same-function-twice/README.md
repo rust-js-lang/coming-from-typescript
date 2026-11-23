@@ -81,9 +81,10 @@ for TypeScript callers:
 
 ```ts
 // rust/src/lib.d.ts (generated)
-export function mean(xs: number[]): number | null | undefined;
+export function mean(xs: readonly number[]): number | null | undefined;
 ```
 
+`readonly`, because Rust borrows the list only to read it (chapter 2).
 (Why `| null` too? Chapter 8 has the story.)
 
 ## Side by side

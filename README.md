@@ -25,6 +25,9 @@ fewer things, each explained, with the why.
 3. [Numbers that know their kind](chapters/03-numbers-know-their-kind/README.md):
    whole numbers that divide whole, overflow you must decide on, parsing
    that means all of it, and `u64` as a `bigint` that keeps every digit.
+4. [Strings are UTF-8](chapters/04-strings-are-utf-8/README.md): bytes
+   that are always valid text, `chars()` for characters, and why
+   TypeScript's `word[0]` can be half an emoji.
 
 ## Run it
 

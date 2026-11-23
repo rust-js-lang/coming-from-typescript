@@ -7,7 +7,7 @@
 export function slug(name: string): string;
 
 /** The total of some prices, in cents: `total` changes, so it says `mut`. */
-export function total(prices: number[]): number;
+export function total(prices: readonly number[]): number;
 
 /**
  * Adds an item to the cart it's given. It changes the caller's cart, so
@@ -19,4 +19,4 @@ export function addItem(cart: string[], item: string): void;
  * A new cart: the one it's given, and an item. The caller's is untouched,
  * and the signature says so: `&[String]` can only be read.
  */
-export function withItem(cart: string[], item: string): string[];
+export function withItem(cart: readonly string[], item: string): string[];

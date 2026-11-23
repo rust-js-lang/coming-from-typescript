@@ -11,9 +11,10 @@ its row go.
 
 None open.
 
-Pinned: `1c13c914e` (rust-js `main`, 2026-11-23).
+Pinned: `b8c176f28` (rust-js `main`, 2026-11-23).
 
 ## Landed upstream
 
 | Patch | Gap | Chapter | Issue | Fixed by |
 |---|---|---|---|---|
+| (none) | **Declarations.** A `&[T]` parameter was declared `T[]`, the same as `&mut`, so TypeScript couldn't pass a `readonly` array to a function that only reads it. Now a shared borrow of an array is `readonly T[]` (ADR 1189). | [2](chapters/02-let-and-let-mut/README.md) | [rust-js#2392](https://github.com/rust-js-lang/rust-js/issues/2392) | [rust-js#2394](https://github.com/rust-js-lang/rust-js/pull/2394), `b8c176f28` |

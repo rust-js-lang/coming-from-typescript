@@ -1,0 +1,8 @@
+[
+  {"bytes":12,"chars":12,"first":"ada","initials":"AL","reversed":"ecalevol ada","short":"ada …","text":"ada lovelace"},
+  {"bytes":12,"chars":10,"first":"naïve","initials":"NC","reversed":"éfac evïan","short":"naïv…","text":"naïve café"},
+  {"bytes":13,"chars":10,"first":"👋","initials":"👋HT","reversed":"ereht ih 👋","short":"👋 hi…","text":"👋 hi there"},
+  {"bytes":15,"chars":12,"first":"𝓐da","initials":"𝓐L","reversed":"ecalevol ad𝓐","short":"𝓐da …","text":"𝓐da lovelace"},
+  {"bytes":7,"chars":6,"first":"école","initials":"E","reversed":"eloće","short":"éco…","text":"école"},
+  {"bytes":0,"chars":0,"first":"","initials":"","reversed":"","short":"","text":""}
+]

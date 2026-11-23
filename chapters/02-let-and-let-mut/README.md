@@ -124,14 +124,15 @@ rust: addItem(cart, 'fig');            your cart is ["apple","fig"]
 
 ## Where it's different
 
-- **The promise stops at the `.d.ts`.** Rust knows `with_item` only reads
-  your cart, but rust-js declares its parameter `string[]`, not `readonly
-  string[]`. So a TypeScript caller holding a `readonly` array can't pass
-  it in (`types.check.ts`). We filed that:
-  [rust-js#2392](https://github.com/rust-js-lang/rust-js/issues/2392).
-- **TypeScript has no word for `&mut`.** Nothing in a `.d.ts` can say "this
-  function changes the array you pass". The guarantee lives in Rust; a
-  TypeScript caller of the compiled code has to read the docs, as before.
+- **The promise reaches the `.d.ts`, as `readonly`.** rust-js declares a
+  `&[String]` parameter `readonly string[]`, so a TypeScript caller can
+  pass a frozen array where Rust only reads, and a `&mut Vec<String>` one
+  `string[]`, which refuses a frozen array (`types.check.ts`). This
+  chapter found that rust-js used to write `string[]` for both, and fixed
+  it: [rust-js#2392](https://github.com/rust-js-lang/rust-js/issues/2392).
+- **But `string[]` doesn't say "changes it".** A `string[]` parameter
+  might be changed or might not; TypeScript has no word for `&mut`. Only
+  the `readonly` side is a promise TypeScript can check.
 - **Deep, not shallow.** TypeScript's `readonly string[]` stops at the
   array: the objects in it can still change. Rust's `&` reaches all the
   way down. Nothing you can reach through a `&` can change, unless it's
